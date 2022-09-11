@@ -1,36 +1,23 @@
-import styled from "styled-components";
-/* import Footer from '@components/Footer' */
-import MainContent from "../components/MainContent";
-import Sidebar from "../components/Sidebar";
+import Head from 'next/head'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <Container>
-       <Card>
-        <Sidebar />
-        <MainContent />
-      </Card>
-    </Container>
+    <div className="container">
+      <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main>
+        <Header title="This Page is under construction 🛠️" />
+        <p className="description">
+          I'm still working on my site.
+        </p>
+      </main>
+
+      <Footer />
+    </div>
   )
 }
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #ee0979;
-  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
-  background: linear-gradient(to right, #ff6a00, #ee0979);
-`;
-
-const Card = styled.div`
-  height: 90vh;
-  width: 80vw;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(14px);
-  border-radius: 10px;
-  display: flex;
-`;
