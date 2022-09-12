@@ -1,23 +1,17 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "../components/NavBar";
+import { Banner } from "../components/Banner";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="App">
       <Head>
         <title>Danish Teuku</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <Header title="This Page is under construction 🛠️" />
-        <p className="description">
-          I'm still working on my site.
-        </p>
-      </main>
-
-      <Footer />
+      <NavBar />
+      <Banner />
     </div>
   )
 }
