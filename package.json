@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.1",
     "cypress": "^10.0.3",
     "next": "^12.3.0",
@@ -15,6 +16,7 @@
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.2",
     "react-on-screen": "^2.1.1"
   }
 }

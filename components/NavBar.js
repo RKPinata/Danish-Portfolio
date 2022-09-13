@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><Image src={navIcon1} alt=""/></a>
-                <a href="#"><Image src={navIcon2} alt=""/></a>
-                <a href="#"><Image src={navIcon3} alt=""/></a>
+                <a href="https://www.linkedin.com/in/danishteuku/" target="_blank" ><Image src={navIcon1} alt="linked in danish teuku"/></a>
+                <a href="https://twitter.com/TeukuDanish" target="_blank"><Image src={navIcon2} alt="twitter danish teuku"/></a>
+                <a href="https://www.instagram.com/teukudanish/ " target="_blank"><Image src={navIcon3} alt="instagram danish teuku"/></a>
               </div>
               <Link href='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
