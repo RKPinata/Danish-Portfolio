@@ -31,7 +31,7 @@ export const Skills = () => {
       items: 1
     }
   };
-
+  
   return (
     <section className="skill" id="skills">
         <Container className="container">
@@ -52,10 +52,6 @@ export const Skills = () => {
                             <div className="item">
                                 <Image src={meter3} alt="Image" />
                                 <h5>Web Design</h5>
-                            </div>
-                            <div className="item">
-                                <Image src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
                             </div>
                         </Carousel>
                     </div>

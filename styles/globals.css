@@ -343,6 +343,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.background-image-2{
+  background-image: url('../assets/img/color-sharp2.png');
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
